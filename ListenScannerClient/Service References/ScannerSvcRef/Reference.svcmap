@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2cdefba0-2e68-4dc0-b247-86e7ffcaf53d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8181/ScannerSvc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ScannerSvc.xsd" MetadataType="Schema" ID="2839aacc-efb1-43d5-8caf-9838559306c9" SourceId="1" SourceUrl="http://localhost:8181/ScannerSvc?xsd=xsd0" />
+    <MetadataFile FileName="ScannerSvc1.xsd" MetadataType="Schema" ID="c9811a87-c28f-47f9-86af-9327069018b6" SourceId="1" SourceUrl="http://localhost:8181/ScannerSvc?xsd=xsd1" />
+    <MetadataFile FileName="ScannerSvc2.xsd" MetadataType="Schema" ID="d3bc5530-c194-4474-82a4-45bedaabce9c" SourceId="1" SourceUrl="http://localhost:8181/ScannerSvc?xsd=xsd2" />
+    <MetadataFile FileName="ScannerService.wsdl" MetadataType="Wsdl" ID="70823f74-d4b3-4fae-8a72-2c676a981d06" SourceId="1" SourceUrl="http://localhost:8181/ScannerSvc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
